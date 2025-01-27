@@ -12,3 +12,37 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+img {
+  display: block;
+  width: 100%;
+  /* height: auto; */
+}
+
+.gallery {
+  width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin: 0;
+  padding: 100px 156px;
+  list-style-type: none;
+}
+
+.gallery li {
+  width: calc((100% - 48px)/3);
+}
+
+#boxes {
+  border-radius: 8px;
+  padding: 32px;
+  width: 486px;
+  height: auto;
+  background-color: #f6f6fe;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  margin: 0 auto;
+}
